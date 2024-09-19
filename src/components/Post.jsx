@@ -25,7 +25,7 @@ const Post = ({ post }) => {
         ))}
         {/* Convert object to JSON string */}
         <div className="alert alert-success reactions" role="alert">
-          This post has been reacted by {JSON.stringify(post.reactions)} people.
+          This post has {JSON.stringify(post.reactions)}{" "}
         </div>
 
         {/* Render specific properties of the object */}
